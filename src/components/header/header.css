@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 10rem;
     overflow: hidden;
 }
 
@@ -10,11 +10,26 @@ header {
     position: relative;
 }
 
+.header__container::after {
+    content: "";
+    margin-top: 1rem;
+    width: 1px;
+    height: 5rem;
+    background: var(--color-primary);
+    position: absolute;
+    margin-left: -0.4rem;
+
+}
+
 /* Resume */
 
 .Resume {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+}
+
+a.margin-right {
+    margin-right: 0rem;
 }
