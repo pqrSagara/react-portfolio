@@ -30,9 +30,9 @@ const ParticlesBackground = () => {
                 interactivity: {
                     detect_on: "canvas",
                     events: {
-                        onclick: { enable: true, mode: "push" },
+                        onclick: { enable: false, mode: "push" },
                         onhover: {
-                            enable: true,
+                            enable: false,
                             mode: "attract",
                             parallax: { enable: false, force: 60, smooth: 10 }
                         },
@@ -59,7 +59,7 @@ const ParticlesBackground = () => {
                         enable: true,
                         out_mode: "out",
                         random: false,
-                        speed: 2,
+                        speed: 1,
                         straight: false
                     },
                     number: { density: { enable: true, value_area: 800 }, value: 25 },

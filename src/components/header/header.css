@@ -11,6 +11,7 @@ header {
 }
 
 .header__container::after {
+    animation: fadeIn;
     content: "";
     margin-top: 1rem;
     width: 1px;
@@ -18,7 +19,7 @@ header {
     background: var(--color-primary);
     position: absolute;
     margin-left: -0.4rem;
-
+    animation: fadeIn 1s ease-in both;
 }
 
 /* Resume */
@@ -32,4 +33,21 @@ header {
 
 a.margin-right {
     margin-right: 0rem;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        background: red;
+    }
+
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: blue;
+    }
 }
