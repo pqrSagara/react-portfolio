@@ -1,17 +1,30 @@
 header {
     height: 100vh;
-    padding-top: 10rem;
+    padding-top: 20rem;
     overflow: hidden;
 }
+
 
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
+
 }
 
-.header__container::after {
-    animation: fadeIn;
+
+.hacked {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(2rem, 10vw, 7rem);
+    color: var(--color-primary);
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    line-height: 7rem;
+    text-shadow: 5px 5px 0px #204A69, 4px 4px 0px #204A69, 3px 3px 0px #204A69, 2px 2px 0px #204A69, 1px 1px 0px #204A69;
+}
+
+
+/* .header__container::after {
     content: "";
     margin-top: 1rem;
     width: 1px;

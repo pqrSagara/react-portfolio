@@ -21,7 +21,6 @@ nav {
     gap: 0.8rem;
     flex-direction: column;
     animation: fadeIn 1s ease-in both;
-    backdrop-filter: blur(15px);
 }
 
 nav a {
@@ -31,11 +30,9 @@ nav a {
     font-size: 1.1rem;
 }
 
-nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
-}
+nav a:hover {}
 
 nav a.active {
-    background: var(--color-bg);
+
     color: var(--color-white);
 }

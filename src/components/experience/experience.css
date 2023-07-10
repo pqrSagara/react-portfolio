@@ -1,0 +1,47 @@
+#experience {
+    padding-top: 3rem;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--color-primary);
+    overflow: hidden;
+    line-height: 2.5rem;
+    animation: fade 1s ease-in both;
+}
+
+.vertical-timeline-element-icon {
+    background: #11171F !important;
+    box-shadow: 0 0 0 4px #4db5ff !important;
+}
+
+.vertical-timeline-element-content {
+    padding: 1rem 1rem 1rem 1rem !important;
+    color: var(--color-light);
+    background: #11171F !important;
+    box-shadow: 1.5px 1.5px 0px #2E3E54 !important;
+    transition: box-shadow .3s,
+        transform .3s;
+
+}
+
+.vertical-timeline-element-content:hover {
+    box-shadow: 5px 5px 0px #2E3E54, 4px 4px 0px #2E3E54, 3px 3px 0px #2E3E54, 2px 2px 0px #2E3E54, 1px 1px 0px #2E3E54 !important;
+    transform: translate(-0.25em, -0.25em);
+}
+
+.vertical-timeline-element-date {
+    color: var(--color-primary) !important;
+    position: sticky !important;
+}
+
+
+.vertical-timeline-element-content-arrow {
+    border: none !important;
+}
+
+
+.date {
+    color: var(--color-primary);
+}

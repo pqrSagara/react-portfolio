@@ -1,0 +1,75 @@
+#about {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    background-color: rgba(17, 23, 31, 0.5);
+    position: relative;
+}
+
+#about h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--color-primary);
+    overflow: hidden;
+    line-height: 2.5rem;
+}
+
+.h1Fade {
+    animation: fadeMid 1s ease-in both;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+span {
+    color: rgb(219, 219, 219) !important;
+}
+
+.test {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.xSvg {
+    height: 11px;
+    width: 11px;
+    margin: auto;
+    display: block;
+    opacity: 0;
+}
+
+.animateX {
+    opacity: 1;
+    animation: rotate 0.75s ease-in both;
+}
+
+.lineSvg {
+    opacity: 0;
+    height: 6rem;
+    width: 1px;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+
+}
+
+.animateLine {
+    opacity: 1;
+    animation: topBottom 0.75s ease-in both;
+}
+
+
+
+.about__container {
+    display: block;
+
+}
+
+.about__container p {
+    text-align: center;
+    color: var(--color-light);
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 3rem;
+
+}
