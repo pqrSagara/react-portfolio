@@ -62,7 +62,7 @@
 
 @keyframes topBottom {
     from {
-        transform: translateY(-50%);
+        transform: translateY(-75%);
     }
 
     to {

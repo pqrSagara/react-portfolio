@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div className='Resume'>
       <a href={resume} download className='btn margin-right'> <FaFileDownload /> Resume</a>
-      <a href='#contacts' className='btn btn-primary'>Get in touch</a>
+      <a href='#footer' className='btn btn-primary'>Get in touch</a>
     </div>
   )
 }

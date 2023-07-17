@@ -1,46 +1,36 @@
 import React from 'react'
 import './portfolio.css'
-import portfolio1 from '../../assets/portfolio1.png'
-import portfolio2 from '../../assets/portfolio2.png'
+import { projectData } from './projects.js'
+import { BsGithub } from 'react-icons/bs'
+import { AiOutlineEye } from 'react-icons/ai'
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <div className='container portfolio__container'>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={portfolio2} alt="" />
-          </div>
-          <h3>Lyceum Online Completion</h3>
-          <div className="a">
-            <p>An online web app for processing late exam completion process</p>
-          </div>
-        </article>
+        {projectData.map((element) => {
+          return (
+            <article key={element.id} className='portfolio__item'>
+              <div className='portfolio__item-image'>
+                <img src={element.image} alt={element.title} />
+              </div>
+              <div class="titleContainer">
+                <h3>{element.title}</h3>
+                <div class="links">
+                  <a className='projectLinks' href={element.github}><BsGithub /></a>
+                  <a className='projectLinks' href={element.demo}><AiOutlineEye />
+                  </a>
+                </div>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={portfolio1} alt="" />
-          </div>
-          <h3>Project title</h3>
-          <div className="a"></div>
-        </article>
+              </div>
+              <p>{element.desc}</p>
+            </article>
+          )
+        }
+        )}
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={portfolio1} alt="" />
-          </div>
-          <h3>Project title</h3>
-          <div className="p"></div>
-        </article>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={portfolio1} alt="" />
-          </div>
-          <h3>Project title</h3>
-          <div className="p"></div>
-        </article>
       </div>
     </section>
   )
