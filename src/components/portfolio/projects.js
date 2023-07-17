@@ -16,7 +16,7 @@ export const projectData = [
         id: 2,
         image: portfolio3,
         title: 'Magic 8 Ball',
-        desc: 'A draggable 8 ball using HTML, CSS and JS.',
+        desc: 'A draggable magic 8 ball using HTML, CSS and JS.',
         demo: 'https://pqrsagara.github.io/8balljs/',
         github: 'https://github.com/pqrSagara/8balljs',
     },

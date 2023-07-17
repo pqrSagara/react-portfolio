@@ -17,7 +17,7 @@ const Skills = () => {
           <span className={`skillBlocks ${inView ? 'top1' : ''}`}>PHP</span>
           <span className={`skillBlocks ${inView ? 'top1' : ''}`}>Javascript</span>
           <span className={`skillBlocks ${inView ? 'top1' : ''}`}>React</span>
-          <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Node</span>
+          <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Node.js</span>
           <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Java</span>
           <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Azure</span>
           <span className={`skillBlocks ${inView ? 'top3' : ''}`}>HTML</span>
