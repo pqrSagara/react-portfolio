@@ -3,7 +3,7 @@ export const timelineElements = [
         id: 1,
         title: "Technology Consultant I",
         location: "DXC Technology - Taguig, Metro Manila",
-        description: "Web developer mainly working on PHP projects with MSSQL.",
+        description: "Web developer mainly working on PHP projects with RDBMS.",
         date: "March 2022 - July 2023",
         icon: "work",
     },

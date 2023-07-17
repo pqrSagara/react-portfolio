@@ -7,7 +7,7 @@ import portfolioPic from '../../assets/portfoliopic.jpg'
 
 const About = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.2,
   });
 
