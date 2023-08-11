@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react'
 import './header.css'
 import Resume from './Resume'
+import iconPortfolio from '../../assets/iconportfolio.png'
+import iconPortfolio2 from '../../assets/iconportfolio2.png'
+import iconPortfolio3 from '../../assets/iconportfolio3.png'
+import iconPortfolio4 from '../../assets/iconportfolio4.png'
+import iconPortfolio5 from '../../assets/iconportfolio5.png'
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -45,6 +50,15 @@ const Header = () => {
 
   return (
     <header>
+      <div className='logo'>
+        <a href='https://karlo-arayata.vercel.app/' className='logoA'>
+          <img id='logoImg' src={iconPortfolio} alt='' />
+          <img id='logoImg2' src={iconPortfolio2} alt='' />
+          <img id='logoImg3' src={iconPortfolio3} alt='' />
+          <img id='logoImg4' src={iconPortfolio4} alt='' />
+          <img id='logoImg5' src={iconPortfolio5} alt='' />
+        </a>
+      </div>
       <div className="container header__container">
         <h5>Hello! I'm</h5>
         <h1 data-value="KARLO ARAYATA" className='hacked'>KARLO ARAYATA</h1>

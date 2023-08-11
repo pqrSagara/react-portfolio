@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 20rem;
+
     overflow: hidden;
 }
 
@@ -9,8 +9,56 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-
+    padding-top: 20rem;
 }
+
+.logo img {
+    z-index: 9999;
+    opacity: 100%;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    animation: rotate 1s ease-in-out both;
+}
+
+.logoA:hover {
+    animation: rotate 1s ease-in-out both;
+}
+
+.logoA>img:nth-child(2) {
+    z-index: 9998;
+    translate: -2px 2px;
+}
+
+.logoA>img:nth-child(3) {
+    z-index: 9997;
+    translate: -4px 4px;
+}
+
+.logoA>img:nth-child(4) {
+    z-index: 9996;
+    translate: -6px 6px;
+}
+
+.logoA>img:nth-child(5) {
+    z-index: 9995;
+    translate: -8px 8px;
+}
+
+.logoA>img:nth-child(5):hover {
+    translate: 0px 0px;
+}
+
+.logoImage2:hover {}
+
+.logoImage3:hover {}
+
+.logoImage4:hover {}
+
+.logoImage5:hover {}
+
 
 
 .hacked {
@@ -63,4 +111,15 @@ a.margin-right {
     /*.container {
         background: blue;
     }*/
+
+    .logo img {
+        z-index: 9999;
+        opacity: 100%;
+        position: fixed;
+        height: 40px;
+        width: 40px;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        animation: rotate 1s ease-in-out both;
+    }
 }

@@ -7,6 +7,7 @@ import { AiOutlineGithub } from 'react-icons/ai'
 const Footer = () => {
   return (
     <section id='footer'>
+      <h5 className='toph5'>Let's work together</h5>
       <div className='contacts'>
         <a className='footerItem' href='mailto:karloarayata@gmail.com'><SiGmail className='contact' /></a>
         <a className='footerItem' href='https://github.com/pqrSagara'><AiOutlineGithub className='contact' /></a>
