@@ -6,6 +6,7 @@ import iconPortfolio2 from '../../assets/iconportfolio2.png'
 import iconPortfolio3 from '../../assets/iconportfolio3.png'
 import iconPortfolio4 from '../../assets/iconportfolio4.png'
 import iconPortfolio5 from '../../assets/iconportfolio5.png'
+import iconPortfolioW from '../../assets/iconportfolioW.png'
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -57,12 +58,13 @@ const Header = () => {
           <img id='logoImg3' src={iconPortfolio3} alt='' />
           <img id='logoImg4' src={iconPortfolio4} alt='' />
           <img id='logoImg5' src={iconPortfolio5} alt='' />
+          <img id='logoImgW' src={iconPortfolioW} alt='' />
         </a>
       </div>
       <div className="container header__container">
-        <h5>Hello! I'm</h5>
+        <h5 className='greeting'>Hello! I'm</h5>
         <h1 data-value="KARLO ARAYATA" className='hacked'>KARLO ARAYATA</h1>
-        <h5 className="text-light">Web Developer</h5>
+        <h5 className="text-light">Software Engineer</h5>
         <Resume />
 
 
