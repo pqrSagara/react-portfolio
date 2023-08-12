@@ -21,7 +21,7 @@ const About = () => {
         <div className="container about__container">
           <div className={`about__me ${inView ? 'h1Fade' : ''}`}>
             <div className={`about__me-image ${inView ? 'rotatePictest' : ''}`}>
-              <img src={portfolioPic} alt='About Image' />
+              <img src={portfolioPic} alt='About' />
             </div>
           </div>
 
@@ -40,9 +40,9 @@ const About = () => {
             </p>
 
             <p>
-              In my spare time I upskill, contribute and develop on my own projects
-              , quote and build PCs for friends, and play games. I play semi-competitively on multiple games and enjoy learning new trending techs!
-
+              In my spare time I upskill, contribute and develop on my projects,
+              quote and build PCs for friends, and play games.
+              I play semi-competitively on multiple games and enjoy learning new trending techs!
             </p>
 
           </div>
