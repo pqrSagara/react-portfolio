@@ -16,7 +16,7 @@ const Skills = () => {
         <div className='list'>
           <span className={`skillBlocks ${inView ? 'top1' : ''}`}>PHP</span>
           <span className={`skillBlocks ${inView ? 'top1' : ''}`}>Javascript</span>
-          <span className={`skillBlocks ${inView ? 'top1' : ''}`}>React</span>
+          <span className={`skillBlocks ${inView ? 'top1' : ''}`}>React.js</span>
           <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Node.js</span>
           <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Java</span>
           <span className={`skillBlocks ${inView ? 'top2' : ''}`}>Azure</span>
@@ -27,12 +27,12 @@ const Skills = () => {
           <span className={`skillBlocks ${inView ? 'top4' : ''}`}>Kotlin</span>
           <span className={`skillBlocks ${inView ? 'top4' : ''}`}>CSS</span>
           <span className={`skillBlocks ${inView ? 'top5' : ''}`}>Laravel</span>
-          <span className={`skillBlocks ${inView ? 'top5' : ''}`}>Android Development</span>
+          <span className={`skillBlocks ${inView ? 'top5' : ''}`}>Android Studio</span>
           <span className={`skillBlocks ${inView ? 'top5' : ''}`}>IIS</span>
           <span className={`skillBlocks ${inView ? 'top6' : ''}`}>jQuery</span>
           <span className={`skillBlocks ${inView ? 'top6' : ''}`}>Git</span>
           <span className={`skillBlocks ${inView ? 'top6' : ''}`}>SASS</span>
-          <span className={`skillBlocks ${inView ? 'top6' : ''}`}>Firebase</span>
+          <span className={`skillBlocks ${inView ? 'top7' : ''}`}>Firebase</span>
         </div>
       </div>
 
