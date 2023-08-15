@@ -34,7 +34,7 @@ const About = () => {
               Hi, I'm Karlo O. Arayata. Nice to see you here!
             </p>
 
-            <p className='midLine'>I am a software/web developer from Cavite, Philippines. I gained an intereset in
+            <p className='midLine'>I am a software/web developer from Cavite, Philippines. I gained an interest in
               programming back in 2012 when I was 15 years old while playing a game called Ragnarok Online, where I managed to create, develop
               and host my own private server.
             </p>
