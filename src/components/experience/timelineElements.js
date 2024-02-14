@@ -1,5 +1,13 @@
 export const timelineElements = [
     {
+        id: 0,
+        title: "Software Developer",
+        location: "Smartfox Data Solutions, Inc. - Osmeña Avenue, Quezon City",
+        description: "Web developer with a focus on Laravel + LAMP working on CRM content.",
+        date: "October 2023 - preset",
+        icon: "work",
+    },
+    {
         id: 1,
         title: "Technology Consultant I",
         location: "DXC Technology - Taguig, Metro Manila",
