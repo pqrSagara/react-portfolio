@@ -57,6 +57,10 @@
     animation: fadeIn 2.5s ease-in both;
 }
 
+.top8 {
+    animation: fadeIn 2.75s ease-in both;
+}
+
 .skillBlocks {
     opacity: 0;
     display: block;

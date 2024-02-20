@@ -35,6 +35,7 @@ const Skills = () => {
           <span className={`skillBlocks ${inView ? 'top7' : ''}`}>Firebase</span>
           <span className={`skillBlocks ${inView ? 'top7' : ''}`}>Drupal</span>
           <span className={`skillBlocks ${inView ? 'top7' : ''}`}>Visual Basic</span>
+          <span className={`skillBlocks ${inView ? 'top8' : ''}`}>Squarespace</span>
         </div>
       </div>
 
