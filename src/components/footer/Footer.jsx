@@ -13,7 +13,7 @@ const Footer = () => {
         <a className='footerItem' href='https://github.com/pqrSagara'><AiOutlineGithub className='contact' /></a>
         <a className='footerItem' href='https://www.linkedin.com/in/karlo-arayata-6ba81b218/'><BsLinkedin className='contact' /></a>
       </div>
-      <h5>Copyright © 2023 Karlo Arayata - All rights reserved</h5>
+      <h5>Copyright © 2024 Karlo Arayata - All rights reserved</h5>
     </section>
   )
 }
