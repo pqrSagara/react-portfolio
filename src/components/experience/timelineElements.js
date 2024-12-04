@@ -1,14 +1,22 @@
 export const timelineElements = [
     {
         id: 0,
-        title: "Software Developer",
-        location: "Smartfox Data Solutions, Inc. - Osmeña Avenue, Quezon City",
-        description: "Web developer with a focus on Laravel + LAMP working on CRM content and other projects.",
-        date: "October 2023 - ",
+        title: "App/Cloud Support Senior Analyst",
+        location: "Accenture - Mandaluyong, Metro Manila",
+        description: "Servicenow with CSA Certification and multiple micro-certification",
+        date: "August 2024 - ",
         icon: "work",
     },
     {
         id: 1,
+        title: "Software Developer",
+        location: "Smartfox Data Solutions, Inc. - Osmeña Avenue, Quezon City",
+        description: "Web developer with a focus on Laravel + LAMP working on CRM content and other projects.",
+        date: "October 2023 - August 2024",
+        icon: "work",
+    },
+    {
+        id: 2,
         title: "Technology Consultant I",
         location: "DXC Technology - Taguig, Metro Manila",
         description: "Web developer mainly working on PHP projects with RDBMS.",
@@ -16,7 +24,7 @@ export const timelineElements = [
         icon: "work",
     },
     {
-        id: 2,
+        id: 3,
         title: "Intern",
         location: "Lyceum of the Philippines University - General Trias, Cavite",
         description: "Front-end Developer focused on UI and overall design for a web application.",
@@ -24,7 +32,7 @@ export const timelineElements = [
         icon: "work",
     },
     {
-        id: 3,
+        id: 4,
         title: "Bachelor's Degree in Information Technology",
         location: "Lyceum of the Philippines University - General Trias, Cavite",
         description: "Graduated with a primary focus on Java and mobile development.",
